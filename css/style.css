@@ -76,3 +76,16 @@ section::after {
     margin: 0 0 20px;
     transition: 0.5s ease-in-out;
 }
+
+.container .card:hover .imgBx {
+    transform: translateY(-100px);
+}
+
+.container .card:hover .imgBx img {
+    transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
+}
+
+.container .card .imgBx h2 {
+    font-weight: 600px;
+    color: #fff
+}
